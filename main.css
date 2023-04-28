@@ -1,0 +1,26 @@
+body {
+    background-color: pink;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list {
+    background-color:rgb(219, 187, 255);
+}
+
+.coolText {
+    font-size: 25px;
+    color:azure;
+}
+
+img { border-color: white;
+    padding: 10px;
+
+}
+
+* {
+    border-color: white;
+    border-style:dashed;
+    border-width: 2px;
+    border-radius: 30px ;
+}

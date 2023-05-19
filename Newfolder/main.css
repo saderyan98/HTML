@@ -1,0 +1,81 @@
+body {
+    background-color: pink;
+    font-style:normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list {
+    background-color:rgb(219, 187, 255);
+}
+
+.coolText {
+    font-size: 25px;
+    color:azure;
+}
+
+img { border-color: white;
+    padding: 10px;
+
+}
+
+* {
+    border-width: 2px;
+    border-radius: 30px ;
+}
+
+#square {
+        height: 50px;
+        width: 50;
+        background-color: purple;
+        animation-name: colorChange;
+        animation-duration: 2s;
+}
+
+#square:hover {
+    border-radius: 50%;
+}
+
+@keyframes colorChange {
+0% {
+    background-color: blueviolet;
+    box-shadow: 6px 6px black;}
+
+50% {
+    background-color:blue;
+    box-shadow: 6px 6px black;
+}
+100% {
+    background-color:darkblue;
+    box-shadow: 6px 6px black;
+}
+}
+
+
+.cat {
+    max-width: 17%;
+    height: auto;
+    vertical-align: cnt;
+}
+
+.name {
+    text-align: center;
+}
+
+.box {
+    max-width: 75%;
+    border: 2px;
+    border-color:rgb(219, 187, 255);
+    text-align: center;
+}
+
+#image {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+  }
+  
+  #quote {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+  }
